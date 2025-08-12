@@ -5,6 +5,7 @@ import Button from "@/components/ui/Button";
 import Icon from "@/components/ui/Icon";
 import Select from "@/components/ui/Select";
 import TooltipDemo from "@/components/ui/TooltipDemo";
+import ConfirmDialogDemo from "@/components/ui/ConfirmDialogDemo";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -151,6 +152,11 @@ export default function Home() {
       {/* TooltipBubble Demo */}
       <div className="w-full">
         <TooltipDemo />
+      </div>
+
+      {/* ConfirmDialog Demo */}
+      <div className="w-full">
+        <ConfirmDialogDemo />
       </div>
     </div>
   );
