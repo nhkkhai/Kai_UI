@@ -6,6 +6,7 @@ import Icon from "@/components/ui/Icon";
 import Select from "@/components/ui/Select";
 import TooltipDemo from "@/components/ui/TooltipDemo";
 import ConfirmDialogDemo from "@/components/ui/ConfirmDialogDemo";
+import TableDemo from "@/components/ui/TableDemo";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -157,6 +158,11 @@ export default function Home() {
       {/* ConfirmDialog Demo */}
       <div className="w-full">
         <ConfirmDialogDemo />
+      </div>
+
+      {/* Table Demo */}
+      <div className="w-full">
+        <TableDemo />
       </div>
     </div>
   );
