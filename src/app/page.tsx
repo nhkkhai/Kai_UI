@@ -8,6 +8,7 @@ import ConfirmDialogDemo from "@/components/ui/ConfirmDialogDemo";
 import TableDemo from "@/components/ui/TableDemo";
 import BadgeDemo from "@/components/ui/BadgeDemo";
 import AlertDemo from "@/components/ui/AlertDemo";
+import ToastDemo from "@/components/ui/ToastDemo";
 import Image from "next/image";
 import { useState } from "react";
 import Input from "@/components/ui/Input";
@@ -333,6 +334,10 @@ export default function Home() {
         <AlertDemo />
       </div>
 
+      {/* Toast Demo */}
+      <div className="w-full">
+        <ToastDemo />
+      </div>
 
     </div>
   );
