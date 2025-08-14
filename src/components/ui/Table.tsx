@@ -40,9 +40,9 @@ const bodyVariantClass: Record<TableVariant, string> = {
   dark: "bg-gray-800 text-white border-gray-600 hover:bg-gray-700",
   light: "bg-white text-gray-900 border-gray-200 hover:bg-gray-50",
   glass:
-    "bg-white/10 backdrop-blur-sm text-white border-white/20 hover:bg-white/20",
+    "bg-white/30 backdrop-blur-sm text-white border-white/20 hover:bg-white/20",
   blackGlass:
-    "bg-black/10 backdrop-blur-sm text-white border-black/20 hover:bg-black/20",
+    "bg-black/30 backdrop-blur-sm text-white border-black/20 hover:bg-black/20",
 };
 
 const Table = <T,>({

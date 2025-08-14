@@ -3,7 +3,6 @@
 import Loading from "@/components/ui/Loading";
 import Button from "@/components/ui/Button";
 import Icon from "@/components/ui/Icon";
-import Select from "@/components/ui/Select";
 import TooltipDemo from "@/components/ui/TooltipDemo";
 import ConfirmDialogDemo from "@/components/ui/ConfirmDialogDemo";
 import TableDemo from "@/components/ui/TableDemo";
@@ -115,7 +114,7 @@ export default function Home() {
   // State cho DateRangePicker
 
   return (
-    <div className="flex flex-col gap-4 bg-black justify-center items-center">
+    <div className="flex flex-col gap-4 justify-center items-center overflow-y-auto">
       <Loading variant="spinner" />
 
       {/* Button Grid */}
@@ -136,19 +135,6 @@ export default function Home() {
           </Button>
         ))}
       </div>
-
-      <Select
-        label="Select 12312 123 123 123 12 3"
-        options={[
-          { label: "Option 1", value: "option1" },
-          { label: "Option 2", value: "option2" },
-        ]}
-        value="option2"
-        colorScheme="dark"
-        labelPosition="left"
-        size="medium"
-        onChange={(value) => console.log("Selected:", value)}
-      />
 
       {/* TooltipBubble Demo */}
       <div className="w-full">

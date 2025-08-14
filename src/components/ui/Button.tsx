@@ -188,7 +188,7 @@ const variantClass: Record<ButtonVariant, string> = {
   "outline-fuchsia":
     "border border-fuchsia-500 text-fuchsia-500 bg-transparent hover:bg-fuchsia-50 hover:border-fuchsia-600",
   glass:
-    "bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white/20 shadow-lg",
+    "bg-white/30 backdrop-blur-md border border-white/20 text-white hover:bg-white/20 shadow-lg",
   neon: "bg-gradient-to-r from-cyan-400 to-blue-500 text-white hover:from-cyan-500 hover:to-blue-600 shadow-lg shadow-cyan-500/25",
   metallic:
     "bg-gradient-to-r from-gray-400 to-gray-600 text-white hover:from-gray-500 hover:to-gray-700 shadow-lg",

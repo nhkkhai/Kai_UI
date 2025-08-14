@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const TooltipDemo: React.FC = () => {
   return (
-    <div className="p-8 space-y-8 bg-black min-h-screen">
+    <div className="p-8 space-y-8">
       <div className="text-center">
         <h1 className="text-4xl font-bold text-gray-800 mb-4">
           TooltipBubble Style Showcase
