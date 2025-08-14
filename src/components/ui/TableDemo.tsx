@@ -159,7 +159,7 @@ const TableDemo: React.FC = () => {
   };
 
   return (
-    <div className="p-8 space-y-8 bg-black min-h-screen">
+    <div className="p-8 space-y-8">
       <div className="text-center">
         <h1 className="text-4xl font-bold text-gray-800 mb-4">
           Table Component Showcase
@@ -206,7 +206,7 @@ const TableDemo: React.FC = () => {
           📊 Data Table
         </h2>
 
-        <div className="bg-black rounded-lg shadow-lg p-6">
+        <div className="rounded-lg shadow-lg p-6">
           <div className="mb-4">
             <h3 className="text-lg font-semibold text-gray-700 mb-2">
               Current Variant:{" "}
