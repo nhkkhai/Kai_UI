@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Montserrat } from "next/font/google";
 import "./globals.css";
+import { ToastProvider } from "@/components/ui/ToastProvider";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -24,7 +25,9 @@ export default function RootLayout({
         className={`${montserrat.variable} h-screen overflow-hidden w-screen`}
       >
         <div className="overflow-y-auto overflow-x-hidden w-full h-full">
-          {children}
+          <ToastProvider>
+            {children}
+          </ToastProvider>
         </div>
       </body>
     </html>
